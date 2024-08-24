@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es-co">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="./styles/style.css">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <link rel="icon" href="./assets/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <a href="#" id="logoLink">
+            <div class="header__logo">
+                <img class="logo" src="./assets/Logo1.png" alt="Logo de Alura Latam" href="#index.html">
+            </div>
+        </a>
+    </header>
+    <main>
+        <div class="input__section">
+            <textarea id="inputTexto" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="contenedor__info">
+                    <small class="info__texto">
+                        <img src="./assets/icono_exclamacion.png" alt="Icono de exclamación">
+                        Solo letras minúsculas y sin acentos
+                    </small>
+                </div>
+                <div class="botones">
+                    <button id="encriptadorBoton">Encriptar</button>
+                    <button id="desencriptadorBoton">Desencriptar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="output__section">
+            <div class="output__section__contenido">
+                <img class="img__output" src="./assets/buscando.png" alt="Icono personas buscando con lupa">
+                <p class="mensaje"><strong>Ningún mensaje fue <br class="responsive-br"> encontrado</strong></p>
+                <p class="instruccion">Ingresa el texto que desees encriptar o <br class="responsive-br"> desencriptar.</p>
+            </div>
+            <button id="botonCopiar" aria-label="Copiar al portapapeles">
+                <img class="img__copiar" src="./assets/icono_copiar.png" alt="Copiar">
+            </button>
+        </div>
+
+    </main>
+    <footer>
+        <div class="footer__contenido">
+            <a class="footer__link"href="https://www.instagram.com/lizziee.jo/" target="_blank">
+                <img class="img__instagram" src="./assets/icono__link.png" alt="Icono de Instagram">
+            </a>
+            <p class="footer__texto"><strong>Elaborado por Lizeth Ortiz para Alura Latam </strong> </p>
+        </div>
+    </footer>
+</body>
+</html>
